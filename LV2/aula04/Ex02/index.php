@@ -1,5 +1,5 @@
 <?php
-    include("location: carros.php");
+    include_once 'carros.php';
 
     $c1 = new Carros();
     $c1->ano = 2021;
@@ -16,5 +16,9 @@
     $c2->marca = "Volkswagen";
     $c2->modelo = "Gol 1.0";
     $c2->placa = "SEX-0069";
+
+    print_r($c1);
+    echo "<br>";
+    print_r($c2);
 
 ?>

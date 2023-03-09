@@ -11,9 +11,9 @@
     $p1->sexo = "Masculino";
 
     $p2 = new Pessoas();
-    $p2->cpf = "432-612-942-93";
+    $p2->cpf = "432.612.942-93";
     $p2->nome = "Luiz Inacio Lula da Silva";
-    $p3->sexo = "Não assumido";
+    $p2->sexo = "NC";
 
     print_r($p1);
     echo "<br><br>";
